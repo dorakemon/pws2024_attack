@@ -1,0 +1,24 @@
+ID,チーム名,チーム代表,Utility Score,Sample Attack,"Random Forestによる識別率","GAOZの分布の違いあり","Reviewの分布の違いあり",攻撃担当者,重要チーム,匿名予想得点,合計予想得点,予想順位,攻撃手法 / 結果,一回め攻撃方法,一回目攻撃結果,一回目匿名加工点数,総合得点,"我々の攻撃による１回目順位","２回目の攻撃の手法 マッチング (Distinct変化)","２回目の攻撃の手法 穴埋め gomi22",２回目結果,２回目の匿名点,"改善2回目-１回目",,"いいとこどり得点","いいとこどりでのランキング",3回目攻撃手法,泥臭方式
+1,宮地研.exe,myjlabexe,91.02,88,0.3,TRUE,TRUE,なし,FALSE,70,161.02,2,,MAE ATTACK,64,36,127.02,17,Mae w/ Divor (40 -> 44),Mae,68,32,4,32,123.02,15,いいとこどり,
+2,私達日本語本当下手,zelret,83.69,87,0.35,TRUE,TRUE,なし,FALSE,65,148.69,4,,MAE ATTACK,50,50,133.69,11,Mae w/ Divor (39 -> 40),Mae,51,49,1,49,132.69,10,いいとこどり,
+3,ポップコーン,jbstkf,76.76,84,0.44,Genderのみ,FALSE,なし,FALSE,56,132.76,14,Election,MAE ATTACK (Electionと組み合わせると良さそう),58,42,118.76,19,Mae w/ Divor (34 -> 37),Mae,56,44,-2,42,118.76,17,いいとこどり,5つほど
+4,Hots,rq1543180,69.1,81,0.33,TRUE,TRUE,藤井,TRUE,67,136.1,11,,MAE ATTACK,34,66,135.1,7,Mae w/ Divor (27 -> 35),Mae,28,72,-6,66,135.1,5,いいとこどり,１つ
+5,SHA-NES,shioriabe,72.36,87,0.78,TRUE,TRUE,後藤,FALSE,22,94.36,20,Random Forest,MAE ATTACK,43,57,129.36,15,Mae w/ Divor (29 -> 30),Mae,42,58,-1,57,129.36,13,多数決,
+6,神ぼ大νττ,masaya,74.55,85,0.38,FALSE,TRUE,なし,なし,62,136.55,10,,MAE ATTACK,41,59,133.55,12,Mae w/ Divor (32 ->35),Mae,40,60,-1,59,133.55,7,いいとこどり,
+7,たけのこ映画守り隊,takenoko,72.4,68,0.28,FALSE,FALSE,なし,FALSE,72,144.4,7,,MAE ATTACK,39,61,133.4,13,Mae w/ Divor (32 ->40),Mae,36,64,-3,61,133.4,8,いいとこどり,0
+8,0xA,yanomichi,63.3,84,0.46,FALSE,TRUE,なし,FALSE,54,117.3,17,Random Forest,MAE ATTACK,28,72,135.3,6,Mae w/ Divor (25 -> 30),Mae,31,69,3,69,132.3,11,いいとこどり,７つほど
+9,ステテコ泥棒,autefu,72.2,91,0.24,TRUE,TRUE,藤井,TRUE,76,148.2,5,,MAE ATTACK,24,76,148.2,1,Mae With Diversity (26 -> 37),Mae,26,74,2,74,146.2,2,藤井穴埋め大作戦,0
+10,動的計画法,pwscup2024,86.1,92,0.24,TRUE,TRUE,なし,TRUE,76,162.1,1,,MAE ATTACK,43,57,143.1,4,Mae With Diversity (32 -> 35),Mae,42,58,-1,57,143.1,3,藤井穴埋め大作戦,0
+11,Gunmataro117,kabutookajima,76.89,89,0.89,FALSE,FALSE,なし,FALSE,11,87.89,21,Electionだが難航,MAE ATTACK,43,57,133.89,10,Mae With Diversity (33 -> 36),Mae,42,58,-1,57,133.89,6,いいとこどり,3つ
+12,HAL,grape1978,80.17,86,0.34,TRUE,TRUE,なし,FALSE,66,146.17,6,,MAE ATTACK,51,49,129.17,16,Mae With Diversity (33 -> 37),Mae,47,53,-4,49,129.17,14,いいとこどり,4つほど
+13,（出場取消）,harada,,,,FALSE,FALSE,,FALSE,,,,,,,100,,#N/A,,,,,,,,,いいとこどり,
+14,privocy,shibata,50.63,87,0.25,FALSE,FALSE,なし,FALSE,75,125.63,15,Election (匿名化全振り系？),MAE ATTACK,19,81,131.63,14,Mae With Diversity,Mae,17,83,-2,81,131.63,12,いいとこどり,0
+15,ES5,pwscup2024kobe,70.27,90,0.7,FALSE,TRUE,なし,FALSE,30,100.27,19,最高,Election,88,12,82.27,21,多数決,多数決,85,15,-3,12,82.27,20,いいとこどり,
+16,佐古研究室,mgoto,82.02,90,0.26,FALSE,TRUE,なし,TRUE,74,156.02,3,,,47,53,135.02,8,,,,,,,,,,
+17,こそっとアタック、しれっとブロック,okano,67,84,0.32,TRUE,FALSE,なし,FALSE,68,135,13,,MAE ATTACK,32,68,135,9,Mae With Diversity (30 ->38),Mae,34,66,2,66,133,9,いいとこどり,
+18,匿名アノニマス,hajime,29.38,85,0.24,TRUE,FALSE,なし,FALSE,76,105.38,18,Election,MAE ATTACK,14,86,115.38,20,Mae With Diversity  (19 -> 31),Mae,12,88,-2,86,115.38,18,いいとこどり,
+19,RITCHEY,ritz2025,69.56,21,0.5,FALSE,TRUE,なし,FALSE,50,119.56,16,Election with GAOZ ham,MAE ATTACK,34,66,135.56,5,多数決,多数決,83,17,49,17,86.56,19,いいとこどり,
+20,KAT-TUNE,kattune,72.08,89,0.31,TRUE,TRUE,藤井,TRUE,69,141.08,9,,MAE ATTACK,24,76,148.08,2,Mae With Diversity (24 -> 34),Mae,21,79,-3,76,148.08,1,藤井穴埋め大作戦,0
+21,PR.AVATECT,takanori,72.01,87,0.36,Genderのみ,TRUE,藤井,TRUE,64,136.01,12,,MAE ATTACK,27,73,145.01,3,Mae With Diversity  (31 -> 32),Mae,30,70,3,70,142.01,4,いいとこどり,0
+22,春日部防衛隊（かすかべ防衛隊）,crbfwd,70.38,91,0.26,TRUE,TRUE,なし,FALSE,74,144.38,8,Election,MAE ATTACK,48,52,122.38,18,,Mae,48,52,0,52,122.38,16,いいとこどり,
+,,,,,,,,,,,,,,,,,,,,,,,,868,,,,
